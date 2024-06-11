@@ -4,7 +4,6 @@ meuFormulario.addEventListener("submit", function(event) {
 
   //Chama a função verificar
   isBetweenZeroAndNine();
-
 });
 
 
@@ -15,24 +14,24 @@ function isBetweenZeroAndNine() {
   //Number - Transforma o texto capturado em Numero
   let numero = Number(document.getElementById("numero").value);
 
-  if (numero >= 0 && number <= 9) {
-      return true;
+  if (numero >= 0 && numero <= 9) {
+
+      document.getElementById("resultado").value = resultado;
     } else {
-      return false;
+
+      document.getElementById("resultado").value = resultado;
     }
-  }
+
+
 
   // Exemplo de uso:
 
   var resultado = 0;
 
-  if (isBetweenZeroAndNine()) {
-      resultdo( está entre 0 e 9.)
+//Aqui vai escrever no input "resultado" o valor que está armazenado na variável "resultado"
+  if (()) {
+    resultdo( "está entre 0 e 9.");
   } else {
-    resultado( não está entre 0 e 9.);
+    resultado( "não está entre 0 e 9.");
   }
-
-  //Aqui vai escrever no input "resultado" o valor que está armazenado na variável "resultado"
-  document.getElementById("resultado").value = resultado;
-
 }
