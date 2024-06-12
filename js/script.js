@@ -16,22 +16,11 @@ function isBetweenZeroAndNine() {
 
   if (numero >= 0 && numero <= 9) {
 
-      document.getElementById("resultado").value = resultado;
+      document.getElementById("resultado").value = "Este número está ente 0 e 9 ";
+
     } else {
 
-      document.getElementById("resultado").value = resultado;
+      document.getElementById("resultado").value = "Este número não está ente 0 e 9 ";
     }
 
-
-
-  // Exemplo de uso:
-
-  var resultado = 0;
-
-//Aqui vai escrever no input "resultado" o valor que está armazenado na variável "resultado"
-  if (()) {
-    resultdo( "está entre 0 e 9.");
-  } else {
-    resultado( "não está entre 0 e 9.");
-  }
 }
